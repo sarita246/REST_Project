@@ -1,0 +1,36 @@
+2020-08-10 19:25:31,805 WARN  [SoapUI] Missing folder [C:\Users\SaritaKumari\Desktop\REST Project\ext] for external libraries
+2020-08-10 19:25:32,089 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\SaritaKumari\soapui-settings.xml]
+2020-08-10 19:25:34,130 INFO  [WsdlProject] Loaded project from [file:/C:/Users/SaritaKumari/Desktop/REST%20Project/REST-Project-soapui-project.xml]
+2020-08-10 19:25:34,878 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST_Project]
+2020-08-10 19:25:34,881 INFO  [SoapUITestCaseRunner] Running Project [REST_Project], runType = SEQUENTIAL
+2020-08-10 19:25:34,926 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase]
+2020-08-10 19:25:34,941 INFO  [SoapUITestCaseRunner] running step [GetAccessToken]
+2020-08-10 19:25:36,570 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-10 19:25:36,570 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-10 19:25:36,572 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-10 19:25:36,920 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-10 19:25:36,920 INFO  [SoapUITestCaseRunner] running step [GetAdminLoginDetails]
+2020-08-10 19:25:37,234 INFO  [log] Admin User Logged in
+2020-08-10 19:25:37,236 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-10 19:25:37,237 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-10 19:25:37,242 INFO  [SoapUITestCaseRunner] running step [AddNewCustomer]
+2020-08-10 19:25:37,555 INFO  [log] 1593
+2020-08-10 19:25:37,572 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-10 19:25:37,572 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-10 19:25:37,575 INFO  [SoapUITestCaseRunner] running step [GetCustomerById]
+2020-08-10 19:25:37,849 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-10 19:25:37,849 INFO  [SoapUITestCaseRunner] running step [ModifyCustomerDetails]
+2020-08-10 19:25:38,123 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-10 19:25:38,124 INFO  [SoapUITestCaseRunner] running step [GetCustomerByIdAfterModify]
+2020-08-10 19:25:38,431 INFO  [log] Name modified!
+2020-08-10 19:25:38,456 INFO  [log] 1593
+2020-08-10 19:25:38,456 INFO  [log] Customer id is correct
+2020-08-10 19:25:38,459 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-10 19:25:38,459 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-10 19:25:38,464 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion 1] has status VALID
+2020-08-10 19:25:38,467 INFO  [SoapUITestCaseRunner] running step [DeleteCustomerById]
+2020-08-10 19:25:38,745 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-10 19:25:38,745 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-10 19:25:39,037 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-10 19:25:39,047 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase], time taken: 3061ms, status: FINISHED
+2020-08-10 19:25:39,048 INFO  [SoapUITestCaseRunner] Project [REST_Project] finished with status [FINISHED] in 4160ms
